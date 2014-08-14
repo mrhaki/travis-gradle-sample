@@ -2,4 +2,4 @@ env:
    - TERM=dumb
 
 script:
-   - ./gradlew hello
+   - ./gradlew dependencies --configuration compile
