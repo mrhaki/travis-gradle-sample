@@ -1,5 +1,2 @@
-env:
-   - TERM=dumb
-
 script:
    - ./gradlew dependencies --configuration compile
