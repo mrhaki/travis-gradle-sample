@@ -12,3 +12,7 @@ task hello << {
     println 'Simple build file'
     println 'for Travis CI'
 }
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '1.12'
+}
