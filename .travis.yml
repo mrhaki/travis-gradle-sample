@@ -1,1 +1,1 @@
-script: TERM=dumb ./gradlew dependencies --configuration compile
+script: ./gradlew dependencies --configuration compile
